@@ -1,0 +1,113 @@
+body {
+    background: #341f97;
+    font-family: 'Lucida Sans';
+    color: white;
+    padding: 0px;
+}
+
+.footer-container {
+    text-align: center;
+    background: #5f27cd;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background: #5f27cd;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
+
+    .header-container img{
+        height:48px;
+        width:auto;
+        display:block;    
+    }
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .nav-list li {
+        display: inline;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+.board-container {
+    width: fit-content;
+    padding: 16px;
+    background: #794ece;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
+
+.board-shell {
+    padding: 12px;
+    padding-bottom: 250px;
+    background: #baacd5;
+    border-radius: 10px;
+    border: 5px inset #837897;
+}
+
+.hud {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding: 8px;
+    background: #794ece;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
+
+.hud img {
+    width: 25px;
+}
+
+.hud-item {
+    min-width: 80px;
+    text-align: center;
+    padding: 6px 10px;
+    background: #1b114c;
+    border-radius: 10px;
+    border: 5px outset #baacd5;
+    font-size: 25px;
+}
+
+.content-row {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 24px;
+    align-items: start;
+    margin: 24px auto;
+}
+
+.best-times {
+    text-align: center;
+    margin-bottom: 260px;
+    padding: 12px;
+    background: #5f27cd;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
+
+.time-container {
+    padding: 16px;
+    background: #794ece;
+    border-radius: 10px;
+    border: 5px outset #a087d1;
+}
