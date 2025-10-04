@@ -1,3 +1,5 @@
+<!-- @Copyright Yeison - VFS 2025-2026 -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,11 +8,15 @@
     <link href="style.css" rel="stylesheet" />
 </head>
 <body class="game">
+    <!-- Site masthead: logo + title -->
     <header class="header-container">
         <img src="logo.png" alt="Logo" />
         <h1>Minesweeper</h1>
     </header>
+
+    <!-- Primary content area -->
     <main class="main-container">
+        <!-- Top navigation -->
         <header class="header-container">
             <nav class="nav-list">
                 <ul>
@@ -20,9 +26,13 @@
                 </ul>
             </nav>
         </header>
+        <!-- Two-column row: left = game panel, right = Best Times -->
         <section class="content-row">
+            <!-- Outer frame for the game area -->
             <section class="board-container">
+                <!-- Inner frame that will hold HUD + (future) board grid -->
                 <section class="board-shell">
+                    <!-- HUD -->
                     <section class="hud">
                         <div class="hud-item">000</div>
                         <div class="hud-item"><img src="emoji.png" alt="Reset Button" /></div>
@@ -30,6 +40,7 @@
                     </section>
                 </section>
             </section>
+            <!-- Right column: Best Times panel -->
             <aside class="time-container">
                 <header class="best-times">
                     <h2>Best Times</h2>
@@ -37,6 +48,7 @@
             </aside>
         </section>
     </main>
+    <!-- ===== Footer ===== -->
     <footer class="footer-container">
         <p>&copy; 2025 Minesweeper by Yeison Munoz. All Rights Reserved.</p>
     </footer>
