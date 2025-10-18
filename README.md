@@ -1,4 +1,4 @@
-**PG29 · Yeison Munoz · VFS HTML5 · Assignment 2 — Minesweeper**
+**PG29 - Yeison Munoz - VFS HTML5 - Assignment 2 - Minesweeper**
 ----------
 Minesweeper static UI on a single page with HTML and CSS (no JS): header, navigation, HUD, “Best Times” panel, and footer.
 
